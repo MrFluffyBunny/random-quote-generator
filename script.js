@@ -27,4 +27,4 @@ const quotes = [
 ];
 
 const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-randomQuote;
+randomQuote.slice(0, 350);
